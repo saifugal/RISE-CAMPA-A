@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'Londrina';
+  src: url('/fonts/BubaDEMO-Outline.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/092/160/non_2x/elegant-gold-stars-background-free-vector.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Londrina', sans-serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #4dc9df;
+  font-family: 'Londrina', sans-serif;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+  color: #ae0d69 !important;
+  transition: color 0.3s;
+  font-family: 'Londrina', sans-serif;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #ff4da6 !important;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(207, 236, 240, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titulo h1 {
+  color: #ae0d69;
+  font-weight: bold;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.titulo h3 {
+  color: #4dc9df;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.titulo p {
+  font-size: 1.2rem;
+  color: #212529;
+  font-style: italic;
+}
+
+.section-title {
+  color: #4dc9df;
+  margin-top: 25px;
+  font-weight: bold;
+  border-bottom: 2px solid #4dc9df;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.card {
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: 'Londrina', sans-serif;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(238, 234, 28, 0.9);
+}
+
+.card-body {
+  font-size: 1rem;
+  color: #212529;
+}
+
+img {
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5);
+  cursor: pointer;
+}
+
+img:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(255, 215, 0, 0.9);
+}
+
+p {
+  font-size: 13px;
+  font-family: 'Londrina', sans-serif;
+  font-weight: bold;
+}
+
+.final-slogan {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background: #4dc9df;
+  color: white;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    font-family: 'Londrina', sans-serif;
+    font-weight: bold;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Londrina', sans-serif;
+    font-weight: bold;
+  }
+
+  td {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Londrina', sans-serif;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 14px;
+    font-family: 'Londrina', sans-serif;
+    font-weight: bold;
+  }
+}
